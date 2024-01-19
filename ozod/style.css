@@ -1,0 +1,267 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.header{
+    padding: 50px;
+}
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu{
+    display: flex;
+    gap: 50px;
+}
+
+
+.digital__wrapper{
+    display: flex;
+}
+.digital__title{
+    color: #272D38;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+text-transform: capitalize;
+width: 540px;
+}
+
+.digital__text{
+    color: #272D38;
+
+    
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; 
+    text-transform: capitalize;
+}
+.digital__btn{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+background: #8EADD5;
+color: #FFF;
+}
+.digital{
+    padding: 220px;
+    border-radius: 10px;
+background: #FDFCFC;
+}
+
+.socials__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.socials{
+    text-align: center;
+}
+.socials__text{
+    color: #667085;
+
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; 
+text-transform: capitalize;
+}
+
+
+.design{
+    padding: 220px;
+    border-radius: 10px;
+background: #FDFCFC;
+}
+
+.design__wrapper{
+display: flex;
+gap: 200px;
+}
+.design__title{
+    color: #272D38;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+text-transform: capitalize;
+width: 440px;
+}
+.design__text{
+    color: #272D38;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; 
+text-transform: capitalize;
+width: 400px;
+}
+
+.design__btn{
+    background-color: none;
+    border: none;
+}
+
+
+.socials__wrapper{
+    border-radius: 8px;
+background: #F6F6F6;
+
+}
+.socials__img{
+    width: 165px;
+    height: 50px;
+}
+
+.plugin__wrapper{
+    display: flex;
+    gap: 200px
+    ;
+}
+
+.plugin{
+    border-radius: 10px;
+background: #FDFCFC;
+}
+.plugin__title{
+    color: #272D38;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 48px */
+text-transform: capitalize;
+}
+
+.plugin__text{
+    color: #272D38;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; /* 171.875% */
+text-transform: capitalize;
+}
+
+.plugin__btn{
+    background-color: none;
+    border: none;
+
+}
+.testimonials__wrapper{
+    margin: 200px;
+    
+}
+
+.testimonials__box{
+    display: flex;
+    gap: 20px;
+    
+}
+.testimonials__cards{
+    width: 350px;
+    height: 340px;
+    border-radius: 20px;
+background: #F6F6F6;
+color: #272D38;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 18.2px */
+text-transform: capitalize;
+
+}
+ .testimonials{
+    text-align: center;
+    margin: 200px;
+    border-radius: 10px;
+background: #FDFCFC;
+ }
+.thing{
+    margin: 200px;
+    border-radius: 20px;
+background: #F6F6F6;
+
+}
+.thing__wrapper{
+    display: flex;
+}
+
+.thing__box{
+   
+}
+
+.thing__title{
+    color: #272D38;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+margin-top: 100px;
+}
+.thing__text{
+    color: #272D38;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; 
+width: 360px;
+margin-top: 20px;
+}
+
+.thing__btn{
+    border-radius: 8px;
+    background: #8EADD5;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 27.5px; 
+text-transform: uppercase;
+margin-top:50px ;
+width: 160px;
+height: 50px;
+}
+.thing__img{
+    width: 450px;
+    height: 450px;
+}
+
+.footer{
+    width: 1440px;
+height: 443px;
+margin-top: 200px;
+
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    gap: 100px;
+    text-align: center;
+    margin-left: 350px;
+}
