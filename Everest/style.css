@@ -162,3 +162,42 @@ text-align: left;
         
     }
 }
+
+
+.popular__cards{
+    background-image: url(./img/photo11.jpg);
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+
+transition: all 0.5s;
+cursor: pointer;
+box-shadow: 1px 1px 100px 10px black(0, 0, 0, 0.9);
+
+
+&:hover{
+    background-size: 150%;
+}
+}
+
+.pop__top{
+
+}
+.pop__box{
+    padding-top: 130px;
+
+}
+
+.popular__wrapper{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.popular{
+    h1{
+        text-align: center;
+        padding: 80px;
+    }
+}
